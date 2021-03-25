@@ -1,14 +1,16 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/63521b78-612e-4a2f-a409-3fa8009e7f3b/deploy-status)](https://app.netlify.com/sites/frosty-perlman-9da1cb/deploys) &nbsp;<a href="https://twitter.com/intent/follow?screen_name=stackrole">
+[![Netlify Status](https://api.netlify.com/api/v1/badges/63521b78-612e-4a2f-a409-3fa8009e7f3b/deploy-status)](https://app.netlify.com/sites/frosty-perlman-9da1cb/deploys) &nbsp;
   <img src="https://img.shields.io/twitter/follow/stackrole.svg?label=Follow%20@Stackrole" alt="Follow @stackrole" />
 </a>
 
-# Foundation
+# Will Kencel's website built with Gatsby Starters
 
-A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifyCMS].
+A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifyCMS].  Feel free to use as a model for your own.
+
+*used AWS hosting instead of netlify*
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stackrole/gatsby-starter-foundation)
 
-Need help launching your website? My DM's are open on <a href="https://twitter.com/stackrole">twitter</a>
+Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 
 [![Gatsby Starter Foundation Screenshot](static/assets/gatsby-starter-foundation-light-mode.jpg)](https://foundation.stackrole.com)
 
@@ -63,10 +65,6 @@ You can select any existing post or page to start editing or add a **New Post**.
 
 ## ⚙ Customing Site details
 You can find all the website settings such website Site title, Website URL, Google anlaytics etc,.. in your Netlify CMS `Admin > Settings > General`
-
-
-## 🌐 Adding Custom domain to netlify website
-We have written a short article on [Custom domain with Netlify website](custom-domain)
 
 ## 🖥 Install Locally
 Use the Gatsby CLI to create a new site, specifying the `gatsby-starter-foundation` starter.
@@ -145,12 +143,8 @@ We really appreciate you taking time to build your website with our `gatsby-star
 
 I would love to get your feedback and contributions. 
 
-Feel free to ping [@stackrole](stackrole) for help regarding your JAMstack website, our DM's are open. And do not forget to share you website with me 😊
+Feel free to email me at wkencel1@gmail.com for help regarding this template or the code
 
-[![Check out Stackrole.com - A Jamstack marketplace](static/assets/twitter-header.jpg)](https://stackrole.com)
 
 [gatsby]: https://gatsbyjs.org
 [netlifyCMS]: https://www.netlifycms.org
-[stackrole]: https://stackrole.com
-[twitter]: https://twitter.com/stackrole
-[custom-domain]: https://stackrole.com/adding-custom-domain-netlify
