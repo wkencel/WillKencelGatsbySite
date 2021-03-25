@@ -11,8 +11,6 @@ A starter to launch your blazing fast personal website and a blog, Built with [G
 
 Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 
-[![Gatsby Starter Foundation Screenshot](static/assets/gatsby-starter-foundation-light-mode.jpg)](https://foundation.stackrole.com)
-
 ## 👌 Features
 - A Blog and Personal website with Netlify CMS.
 - Responsive Web Design
