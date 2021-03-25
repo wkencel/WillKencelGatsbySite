@@ -27,9 +27,6 @@ Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 - Invite collaborators into Netlify CMS, without giving access to your Github account via Git Gateway
 - Gatsby Incremental Builds with Netlify.
 
-
-[![Gatsby Starter Foundation Screenshot](static/assets/gatsby-starter-foundation-dark-mode.jpg)](https://foundation.stackrole.com)
-
 ## 🚀 Quick Deploy
 Just click on the **Deploy to Netlify** button.
 
