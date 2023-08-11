@@ -5,17 +5,17 @@
 
 A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifyCMS].  Feel free to use as a model for your own.
 
-*used AWS hosting instead of netlify*
+*I used AWS hosting instead of deploying to netlify*
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stackrole/gatsby-starter-foundation)
 
 Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 
 ## 👌 Features
-- A Blog and Personal website with Netlify CMS.
+- A Blog and Personal website with Gatsby CMS.
 - Responsive Web Design
 - Dark / Light Mode
-- Customize content of Homepage, About and Contact page.
+- Customize content of Homepage, Blog, About and Contact page.
 - Add / Modify / Delete blog posts.
 - Edit website settings, Add Google Analytics and make it your own all with in the CMS.
 - SEO Optimized
@@ -28,12 +28,12 @@ Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 - Gatsby Incremental Builds with Netlify.
 
 ## 🚀 Quick Deploy
-Just click on the **Deploy to Netlify** button.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stackrole/gatsby-starter-foundation)
-
-This would fork `gatsby-starter-foundation` to your Github account and start building your website on [Netlify](https://netlify.com). Once the deployment is done. Your website will be live and website address would look like **site-name.netlify.app**
-
+1. run `npm install`
+2. run `gatsby build` to create the production build
+3. run `npm run start` which will in turn run the `gatsby development` command
+4. see and edit your site using localhost:8000
+5. when you're ready, copy the public folder to an s3 bucket and host your site with cloudfront cdn, s3 and route 53 (if you need a domain name)
 ### Further Instructions
 - [Access to Netlify CMS](#access-to-netlify-cms)
 - [Editing content and Adding posts](#editing-content-and-adding-posts)
