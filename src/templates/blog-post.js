@@ -128,9 +128,6 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
               ...GatsbyImageSharpFluidLimitPresentationSize
             }
-            sizes {
-              src
-            }
           }
         }
       }
