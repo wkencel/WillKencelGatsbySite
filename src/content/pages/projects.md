@@ -3,15 +3,21 @@ template: projects-page
 slug: /projects
 title: Projects - Past, Present and Future
 ---
-Thanks for checking out what I’m up to.  I just finished up Project Venus with OsLabs last month and am now working on developer tools with GimbaLabs. 
-
 ![Projects](../assets/projectboard.jpg "looking at project board")
 
+Thanks for checking out what I’m up to.  I just finished up working on a CyberSecurity product by Moot inc after working with Microsoft for a year and a half. Before that, I maintained an open-source microservice monitor, Venus, maintained by OsLabs while working on developing applications with colleagues and on blockchain with GimbaLabs. 
+
+# Microsoft | Full stack Engineer
+
+![Microsoft Logo](../assets/MicrosoftLogo.jpg "logo for Mirosoft")
+
+I was extremely fortunate to have a contract with *Microsoft* as my first professional tech job. While there, I saw my team almost double and had the opportunity to mentor the engineers who joined as we built, tested, and shipped a new payment app worldwide to improve the latency on our payment forms by 400%. This role involved a deep understanding of React Native as we built out the sdk with different RN components that were used to create the user stories. On the backend, I worked in .Net making sure that the backend calls for different payment operations were correct. This was the system that we and our internal partners used so everything we did involved testing with a CI/CD methodology. I also built out and created automation testing on our internal tool for testing payment services for testing our user stories that are used in over 100+ countries and by 100 million+ users. 
+
 # OsLabs | Project Venus
+![Venus Logo](../assets/venus3.png "logo for Venus")
 
 *OsLabs* is an open source community that brings together talented engineers to work together on developer-facing products.  I had the opportunity to be part of their front-end team for *Venus*, a service endpoint monitoring application in Node.js/Electron.  My responsibilities entailed producing rich data visualizations for the view along with designing the component hierarchy/flux architecture pattern.
 
-![Venus Logo](../assets/venus3.png "logo for Venus")
 
 This application was built in React and contained a variety of charts and graphs based on endpoint performance metrics.  For example, if you were pinging Google’s weather API with our product, *Venus* would be serving you both real time (short time interval) and historic (long time interval) data.  The data visualization libraries we used to present this information were Visx/D3/React Charts and Ant Design Charts.  
 
@@ -34,9 +40,10 @@ All in All, I'm grateful to have deepened my experience in data visualization in
 
 # GimbaLabs | Educating and Growing the Cardano Community
 
-While this is a blockchain project I’ve only just joined, I'm proud to be a part of this developer team and give back to the open source community.
 
 ![Blockchain](../assets/blockchain.png "blockchain")
+
+I'm proud contributor to the open-source community and this blockchain development team. 
 
 For a bit of background, Bitcoin was the first generation blockchain then Ethereum was second gen.  Cardano is the third generation blockchain and is predicted to be a major disruptor.  It focuses on solving problems in cryptocurrency related to scaling, interoperability and sustainability.  It also aims to democratize access to capital thereby ameliorating wealth discrepancy between 1st and 3rd world countries.  I won’t go into how it does all this but I will leave some links down below.
 
