@@ -11,7 +11,7 @@ const Footer = () => (
     }}
   >
     <div className="container">
-      <p>Copyright © 2021 Will Kencel. All Rights Reserved.<span className="icon -love"><RiHeart2Line/></span> by <Link to="/">WillKencel.com</Link></p>
+      <p>Copyright © 2023 Will Kencel. All Rights Reserved.<span className="icon -love"><RiHeart2Line/></span> by <Link to="/">WillKencel.io</Link></p>
     </div>
   </footer>
 )
