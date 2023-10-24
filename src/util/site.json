@@ -5,7 +5,8 @@
     "description": "Will Kencel's blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ for all the other engineers interested in current software, technology and science",
     "siteUrl": "https://willkencelhome.io",
     "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png"
+    "iconimage": "/assets/stackrole.png",
+    "twitterUsername": "@captkubernetes"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
