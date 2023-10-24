@@ -8,6 +8,6 @@ cta:
   ctaText: Learn more
   ctaLink: /about
 ---
-### Welcome to my homesite! 
+### Welcome! 
 
-Find out more about me and my current projects or learn more on my "500 Words or Less" blog for current events in Software, Space and Science
+Find out more about me and my current projects or check out my blog for current news in Software, Science and Technology.
