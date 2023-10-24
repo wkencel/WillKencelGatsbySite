@@ -1,13 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/63521b78-612e-4a2f-a409-3fa8009e7f3b/deploy-status)](https://app.netlify.com/sites/frosty-perlman-9da1cb/deploys) &nbsp;
-</a>
+# Will Kencel's website built with Gatsby
 
-# Will Kencel's website built with Gatsby Starters
-
-A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifyCMS].  Feel free to use as a model for your own.
-
-*I used AWS hosting instead of deploying to netlify*
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stackrole/gatsby-starter-foundation)
+A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and hosted on AWS (s3/cloudfront/route 53).  Feel free to use as a model for your own.
 
 Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 
@@ -23,42 +16,20 @@ Need help launching your website? Feel free to reach me at wkencel1@gmail.com
 - OpenGraph structured data
 - Twitter Cards meta
 - Beautiful XML Sitemaps
-- Netlify Contact Form, Works right out of the box after deployment.
-- Invite collaborators into Netlify CMS, without giving access to your Github account via Git Gateway
-- Gatsby Incremental Builds with Netlify.
-
 ## 🚀 Quick Deploy
 
-1. run `npm install`
+1. run `yarn install`
 2. run `gatsby build` to create the production build
 3. run `npm run start` which will in turn run the `gatsby development` command
 4. see and edit your site using localhost:8000
 5. when you're ready, copy the public folder to an s3 bucket and host your site with cloudfront cdn, s3 and route 53 (if you need a domain name)
 ### Further Instructions
-- [Access to Netlify CMS](#access-to-netlify-cms)
 - [Editing content and Adding posts](#editing-content-and-adding-posts)
 - [Customing Site details](#customing-site-details)
-- [Adding Custom domain to netlify website](#adding-custom-domain-to-netlify-website)
 - [Install Locally](#install-locally)
 - [Folder Structure](#folder-structure)
 - [Learning Gatsby](#learning-gatsby)
 - [Thank you from Stackrole](#thank-you)
-
-## ⚙ Access to Netlify CMS
-- Goto app.netlify.com > select your website from the list
-- Goto identity and Click **Enable Identiy**
-- Click on **Invite Users** and invite yourself. You will receive an email and you need to accept the invitation to set the password.
-- Now headover to Settings > Identity > Services and **Enable Git Gateway**
-- You can also manage who can register and log in to your CMS. Goto  Settings > Identity > Registration >Registration Preferences. I would prefer to keep it to **Invite Only**, if i am the only one using it.
-- Now, goto to **site-name.netlify.app/admin/**, and login with your credentials.
-
-## 📝 Editing content and Adding posts
-Once you are in your Netlify CMS, you can navigate to Posts and Pages. Here you will find a list of existing pages and posts. 
-
-You can select any existing post or page to start editing or add a **New Post**. Have fun :)
-
-## ⚙ Customing Site details
-You can find all the website settings such website Site title, Website URL, Google anlaytics etc,.. in your Netlify CMS `Admin > Settings > General`
 
 ## 🖥 Install Locally
 Use the Gatsby CLI to create a new site, specifying the `gatsby-starter-foundation` starter.
@@ -70,7 +41,7 @@ gatsby new gatsby-starter-foundation https://github.com/stackrole/gatsby-starter
 ### Start developing
 Navigate into your new site’s directory and start it up.
 ```shell
-cd my-hello-world-starter/
+cd WillKencelGatsbySite/
 gatsby develop
 ```
 
@@ -81,8 +52,6 @@ Your site is now running at `http://localhost:8000`!
 _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
 Open the `gatsby-starter-foundation` directory in your code editor of choice and edit. Save your changes and the browser will update in real time!
-
-You can use Netlify CMS in you local just run `npx netlify-cms-proxy-server` and start run `gatsby develop`
 
 ## 📁 Folder Structure
 
@@ -141,4 +110,3 @@ Feel free to email me at wkencel1@gmail.com for help regarding this template or 
 
 
 [gatsby]: https://gatsbyjs.org
-[netlifyCMS]: https://www.netlifycms.org
