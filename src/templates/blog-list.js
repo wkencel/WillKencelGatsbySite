@@ -119,7 +119,7 @@ class BlogIndex extends React.Component {
           description={"my base blog page " + currentPage + " of " + numPages }
         />
         <h1>500 Words or Less</h1>
-        <h4>Welcome to my blog, 500 Words or Less! This was created to give you the highlights of current events in a concise manner while also giving you the resources to research it yourself and verify the facts. As an engineer, I sure do love my facts and I hope you do too!</h4>
+        <h4>Welcome to my blog! This was created to give you the highlights of current events in a concise manner while also giving you the resources to research it yourself and verify the facts. As an engineer, I sure do love my facts and I hope you do too!</h4>
         <div className="grids col-1 sm-2 lg-3">
           {posts}
         </div>

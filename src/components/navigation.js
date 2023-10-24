@@ -12,7 +12,7 @@ const MenuItems = [
   },
   {
     path: "/blog",
-    title: "500 WoL Blog"
+    title: "Blog"
   },
   {
     path: "/projects",
