@@ -6,7 +6,6 @@ date: 2021-03-16T00:00:00.000Z
 description: learn more about NFTs and what we expect the future holds for them
 featuredImage: /assets/NFT-featured-image.jpeg
 ---
-**sorry that this goes against being 500 words or less but I needed more to make my point*
 
 Too many people are talking about applications for NFTs¹ in the art world and not enough about what else they can do. While NFTs are currently used to verify ownership of digital art and collectibles, they can also be used with more pragmatic everyday items. We are already transitioning to a world of electronic authentication in our daily lives. Most, if not all, of us have used a QR or barcode on our phones as some form of verification by now whether it was for an event or travel.²
 
