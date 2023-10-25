@@ -10,7 +10,7 @@ const Theme = () => {
     <div sx={themeStyles.modeOption}>
       <button
         onClick={e => {
-          setColorMode(colorMode === 'default' ? 'dark' : 'default')
+          setColorMode(colorMode === 'dark' ? 'default' : 'default')
         }}>
           <div sx={themeStyles.modeIcons}>
             <div>
