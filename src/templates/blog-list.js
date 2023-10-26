@@ -120,7 +120,7 @@ class BlogIndex extends React.Component {
         />
         <h1>Welcome to my Blog!</h1>
         <h4>This was created to give you the highlights of current events in a concise manner while also giving you the resources to research it yourself and verify the facts. As an engineer, I sure do love my facts and I hope you do too!</h4>
-        <h4>Feel free to give my articles some claps on <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Visit Google</a></h4>
+        <h4>Feel free to give my articles some claps on <a href="https://medium.com/@willkencel" target="_blank" rel="noopener noreferrer">Medium</a></h4>
         <div className="grids col-1 sm-2 lg-3">
           {posts}
         </div>
