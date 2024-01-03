@@ -6,11 +6,13 @@ import { useColorMode } from 'theme-ui'
 
 const Theme = () => {
   const [colorMode, setColorMode] = useColorMode()
-  return(
+  setColorMode('light')
+  return (
     <div sx={themeStyles.modeOption}>
+      {/*
       <button
         onClick={e => {
-          setColorMode(colorMode === 'default' ? 'dark' : 'default')
+          setColorMode(colorMode === 'default' ? 'default' : 'dark')
         }}>
           <div sx={themeStyles.modeIcons}>
             <div>
@@ -22,6 +24,8 @@ const Theme = () => {
           </div>
 
       </button>
+
+       */}
     </div>
   )
 }
