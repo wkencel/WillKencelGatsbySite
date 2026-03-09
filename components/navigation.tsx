@@ -17,7 +17,7 @@ export default function Navigation() {
   return (
     <nav>
       <button
-        className="text-white lg:hidden"
+        className="text-neutral-900 lg:hidden"
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
       >
@@ -27,13 +27,13 @@ export default function Navigation() {
       <ul
         className={`${
           menuOpen ? "flex" : "hidden"
-        } absolute right-0 top-full flex-col bg-[#5C2941] px-6 py-4 lg:static lg:flex lg:flex-row lg:gap-6 lg:p-0`}
+        } absolute right-0 top-full z-50 flex-col border-b border-neutral-200 bg-white px-6 py-4 lg:static lg:flex lg:flex-row lg:gap-6 lg:border-0 lg:p-0`}
       >
         {navLinks.map(link => (
           <li key={link.href}>
             <Link
               href={link.href}
-              className="block py-2 text-white/80 transition-colors hover:text-white lg:py-0"
+              className="block py-2 text-neutral-500 transition-colors hover:text-neutral-900 lg:py-0"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
