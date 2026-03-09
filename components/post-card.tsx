@@ -15,7 +15,7 @@ export default function PostCard({
           <img
             src={featuredImage}
             alt={title}
-            className="h-48 w-full object-cover"
+            className="w-full"
           />
         </Link>
       )}
