@@ -40,7 +40,7 @@ export default function HomePage() {
           </div>
           <p className="mx-auto mt-8 max-w-xl text-lg text-neutral-600">
             I build software at scale, with a focus on full-stack systems and AI.
-            Currently on the Microsoft Teams org.
+            Currently a Software Engineer at Microsoft.
           </p>
         </div>
       </section>

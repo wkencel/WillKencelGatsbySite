@@ -18,7 +18,7 @@ const projects = [
     title: "Aurora Technologies",
     company: "Founder",
     description:
-      "Founded a software consultancy helping companies build full-stack applications and integrate AI tools. Notable client work includes Property.com — an AI-driven platform with LLM-powered function-calling, vector database, and conversational memory using OpenAI + LangChain — and OpenMotionAI, a physical therapy app leveraging ML and computer vision with AWS microservices.",
+      "Founded a software consultancy helping companies build full-stack applications and integrate AI tools. Notable client work includes Property.com, an AI-driven platform with LLM-powered function-calling, vector database, and conversational memory using OpenAI + LangChain, and OpenMotionAI, a physical therapy app leveraging ML and computer vision with AWS microservices.",
     tech: ["Python", "LangChain", "React Native", "AWS", "OpenAI", "Computer Vision"],
   },
   {
