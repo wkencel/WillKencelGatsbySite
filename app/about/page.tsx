@@ -16,7 +16,7 @@ export default function AboutPage() {
       <h1 className="mb-8 text-3xl font-bold text-neutral-900">
         {page.frontmatter.title}
       </h1>
-      <div className="prose prose-lg max-w-none prose-headings:text-neutral-900 prose-a:text-[#5C2941]">
+      <div className="prose prose-lg max-w-none prose-headings:text-neutral-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline">
         <MDXRemote
           source={page.content}
           options={{
