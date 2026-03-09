@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Will Kencel",
   },
   description:
-    "Will Kencel - Software Engineer at Microsoft. Personal website and blog about software, technology, and engineering.",
+    "Will Kencel — Software Engineer at Microsoft. Writing about software engineering, AI, and technology.",
   openGraph: {
     title: "Will Kencel",
     description: "Software Engineer at Microsoft",

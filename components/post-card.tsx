@@ -9,7 +9,7 @@ export default function PostCard({
   const { title, slug, date, description, featuredImage } = frontmatter
 
   return (
-    <article className="overflow-hidden rounded-xl bg-white shadow-sm transition-shadow hover:shadow-md">
+    <article className="overflow-hidden rounded-xl border border-neutral-200 bg-white transition-shadow hover:shadow-md">
       {featuredImage && (
         <Link href={`/blog/${slug}`}>
           <img
@@ -20,7 +20,7 @@ export default function PostCard({
         </Link>
       )}
       <div className="p-5">
-        <time className="text-sm text-neutral-500">
+        <time className="text-sm text-neutral-400">
           {new Date(date).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
@@ -30,12 +30,12 @@ export default function PostCard({
         <h3 className="mt-1 text-lg font-semibold">
           <Link
             href={`/blog/${slug}`}
-            className="text-neutral-900 no-underline hover:text-[#5C2941]"
+            className="text-neutral-900 no-underline hover:text-blue-600"
           >
             {title}
           </Link>
         </h3>
-        <p className="mt-2 text-sm text-neutral-600">{description}</p>
+        <p className="mt-2 text-sm text-neutral-500">{description}</p>
       </div>
     </article>
   )
