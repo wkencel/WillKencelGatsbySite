@@ -69,7 +69,7 @@ export default async function BlogPostPage({
         />
       )}
 
-      <div className="prose prose-lg max-w-none prose-headings:text-neutral-900 prose-a:text-[#5C2941]">
+      <div className="prose prose-lg max-w-none prose-headings:text-neutral-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline">
         <MDXRemote
           source={content}
           options={{
