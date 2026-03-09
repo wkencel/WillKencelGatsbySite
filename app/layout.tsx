@@ -7,6 +7,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://willkencel.io"),
   title: {
     default: "Will Kencel",
     template: "%s | Will Kencel",
